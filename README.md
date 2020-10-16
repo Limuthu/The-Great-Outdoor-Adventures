@@ -1,2 +1,2 @@
-# The-Great-Outdoor-Adventures
-A Travel Website
+# The Great Outdoor Adventures
+ A Travel Website
