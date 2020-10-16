@@ -1,0 +1,115 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    color: #fff;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 85%;
+    max-width: 65em;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.other--font {
+    font-family: monospace;
+}
+
+img,
+svg {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.btn {
+   padding: 1em 2em;
+   text-transform: uppercase;
+   color: #fff;
+   border-radius: 3.125rem;
+   border: none;
+   outline: none;
+   font-weight: 700;
+   opacity: 80%;
+   cursor: pointer;
+   background-color: #ff4a73;
+}
+
+
+.overlay--hero {
+    @supports(background-blend-mode: multiply) {
+        background: 
+            url(/Img/header-bg.jpg),
+            linear-gradient(#7962be,#3a296f);
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.overlay--card1 {
+    @supports(background-blend-mode: multiply) {
+        background: 
+            url(/Img/stars.jpg),
+            linear-gradient(#7962be,#3a296f);
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.overlay--card2 {
+    @supports(background-blend-mode: multiply) {
+        background: 
+            url(/Img/hiking.jpg),
+            linear-gradient(#7962be,#3a296f);
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.overlay--card3 {
+    @supports(background-blend-mode: multiply) {
+        background: 
+            url(/Img/camping.jpg),
+            linear-gradient(#7962be,#3a296f);
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.overlay--testimonial {
+    @supports(background-blend-mode: multiply) {
+        background: 
+            url(/Img/testimonials-bg.jpg),
+            linear-gradient(#7962be,#3a296f);
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+                  
